@@ -14,6 +14,7 @@ const canvas = $('#pixel_canvas');
 // When size is submitted by the user, call makeGrid()
 
 function makeGrid() {
+  // this runs to make a grid the area of the width and height. This //runs because of the submit button that submits the area of the //area of this new grid.
     canvas.find('tbody').remove();
 
         // "submit" the size form to update the grid size
